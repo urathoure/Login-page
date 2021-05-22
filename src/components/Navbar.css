@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.dropdown {
+  position: relative;
+  right: 0px;
+  margin-right: 1.25rem;
+  width: 18rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  b--tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  border-radius: 0.75rem;
+  --tw-drop-shadow: drop-shadow(0 20px 13px rgba(0, 0, 0, 0.03))
+    drop-shadow(0 8px 5px rgba(0, 0, 0, 0.08));
+  z-index: 20;
+}
+
+.items {
+  display: block;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgba(107, 114, 128, var(--tw-text-opacity));
+}
+
+.items:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
+}
